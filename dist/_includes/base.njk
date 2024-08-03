@@ -34,6 +34,7 @@
     <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="assets/css/global.css" />
     <link href="assets/fonts/remixIcon/remixicon.css" rel="stylesheet" />
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
@@ -44,5 +45,17 @@
     </main>
 
     {% include 'footer.njk' %} {% include 'script.njk' %}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";});
+          }
+        });
+      }
+    </script>
+
   </body>
 </html>

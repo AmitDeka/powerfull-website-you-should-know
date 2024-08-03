@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/images"
+public_folder: "/assets/images"
+collections:
+  - name: "blog"
+    label: "Website"
+    folder: "dist/blog"
+    create: true
+    fields:
+      - { label: "Site Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tag", widget: "list", default: ["post"] }
+      - { label: "Background Color", name: "backgroundColor", widget: "string" }
+      - { label: "Icon", name: "image", widget: "string" }
+      - { label: "Icon Alt", name: "imageAlt", widget: "string" }
+      - { label: "Site Description", name: "description", widget: "markdown" }
+      - { label: "Site Link", name: "link", widget: "string" }
