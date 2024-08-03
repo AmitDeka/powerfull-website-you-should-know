@@ -9,8 +9,8 @@ collections:
     folder: "dist/blog"
     create: true
     fields:
-      - { label: "Site Title", name: "title", widget: "string" }
-      - { label: "Tags", name: "tag", default: "post" }
+      - { label: "Site Title", name: "name", widget: "string" }
+      - { label: "Tags", name: "tags", default: "post" }
       - { label: "Background Color", name: "backgroundColor", widget: "string" }
       - { label: "Icon", name: "image", widget: "image" }
       - { label: "Icon Alt", name: "imageAlt", widget: "string" }
