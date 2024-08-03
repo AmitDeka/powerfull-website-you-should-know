@@ -9,8 +9,10 @@ collections:
     folder: "dist/blog"
     create: true
     fields:
-      - { label: "Site Title", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", default: "post" }
+      - { label: "Site Title", name: "name", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Icon", name: "image", widget: "image" }
       - {
           label: "Background Color",
           name: "backgroundColor",
@@ -18,7 +20,6 @@ collections:
           enableAlpha: true,
           allowInput: true,
         }
-      - { label: "Icon", name: "image", widget: "image" }
       - { label: "Icon Alt", name: "imageAlt", widget: "string" }
-      - { label: "Site Description", name: "description", widget: "markdown" }
       - { label: "Site Link", name: "link", widget: "string" }
+      - { label: "Site Description", name: "description", widget: "markdown" }
