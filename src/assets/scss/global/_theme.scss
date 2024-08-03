@@ -77,15 +77,18 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    height: 370px;
+    height: 400px;
     overflow: hidden;
+    padding: 0 25px;
     position: relative;
     width: 100%;
     @include breakpoint(md) {
-      height: 365px;
+      height: 380px;
+      padding: 0 40px;
     }
     @include breakpoint(lg) {
       height: 480px;
+      padding: 0 70px;
     }
     @include breakpoint(xl) {
       height: 540px;

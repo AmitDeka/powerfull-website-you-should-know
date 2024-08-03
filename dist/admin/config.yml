@@ -12,7 +12,6 @@ collections:
     fields:
       - { label: "Tags", name: "tags", default: "post" }
       - { label: "Site Title", name: "name", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Icon", name: "image", widget: "image" }
       - {
           label: "Background Color",
