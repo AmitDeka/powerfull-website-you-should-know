@@ -10,7 +10,7 @@ collections:
     create: true
     fields:
       - { label: "Site Title", name: "title", widget: "string" }
-      - { label: "Tags", name: "tag", default: ["post"] }
+      - { label: "Tags", name: "tag", default: "post" }
       - { label: "Background Color", name: "backgroundColor", widget: "string" }
       - { label: "Icon", name: "image", widget: "image" }
       - { label: "Icon Alt", name: "imageAlt", widget: "string" }
