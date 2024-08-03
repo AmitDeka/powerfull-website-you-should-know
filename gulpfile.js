@@ -1,6 +1,7 @@
 const gulp = require("gulp");
 const gulpIf = require("gulp-if");
 const browserSync = require("browser-sync").create();
+const purgecss = require("gulp-purgecss");
 const autoprefixer = require("gulp-autoprefixer");
 const sass = require("gulp-sass")(require("sass"));
 const htmlmin = require("gulp-htmlmin");
@@ -66,6 +67,17 @@ function remixIcons() {
     .pipe(gulp.dest("dist/assets/fonts/remixIcon/"))
     .pipe(gulp.dest("public/assets/fonts/remixIcon/"));
 }
+
+gulp.task("purgecss", () => {
+  return gulp
+    .src("dist/assets/css/*.css")
+    .pipe(
+      purgecss({
+        content: ["public/**/*.html"],
+      })
+    )
+    .pipe(gulp.dest("dist/assets/css"));
+});
 
 function js() {
   return gulp

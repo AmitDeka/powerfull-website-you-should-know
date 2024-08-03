@@ -51,22 +51,12 @@ html {
 }
 
 .brand-logo {
-  &_circle {
-    align-items: center;
-    background-color: $accent;
-    border-radius: 50%;
-    display: flex;
-    height: 2.5rem;
-    justify-content: center;
-    width: 2.5rem;
-  }
-  &_icon {
-    color: $light;
-    font-size: 1.6rem;
-  }
   &_text {
-    font-weight: 500;
-    margin-inline-start: 0.3rem;
+    font-weight: 300;
+    span {
+      color: $accent;
+      font-weight: 600;
+    }
   }
 }
 
@@ -138,7 +128,6 @@ html {
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(2, 1fr);
-
     @include breakpoint(md) {
       gap: 14px;
       grid-template-columns: repeat(3, 1fr);
