@@ -2,11 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f58fd89f-04d7-4e13-abd7-427a9b57d4da/deploy-status)](https://app.netlify.com/sites/powerfull-website-you-should-know/deploys)
 
-Discover the Web's Best Kept Secrets
+## Discover the Web's Best Kept Secrets
 
 Unlock a curated list of powerful websites that will transform your online experience. From productivity tools to hidden gems, explore the must-know resources of the internet.
 
-## Table of Contents
+### Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
