@@ -7,6 +7,7 @@ collections:
   - name: "blog"
     label: "Website"
     folder: "dist/blog"
+    slug: "{{name}}"
     create: true
     fields:
       - { label: "Tags", name: "tags", default: "post" }
