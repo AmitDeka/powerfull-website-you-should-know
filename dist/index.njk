@@ -30,7 +30,7 @@ layout: "base.njk"
       
       {% for post in collections.post %}
       <div class="card border-0 rounded-0 h-100">
-        <div class="card-header border-0" style="background-color: #{{ post.data.backgroundColor }}">
+        <div class="card-header border-0" style="background-color: {{ post.data.backgroundColor }}">
           <img
             src="{{ post.data.image }}"
             alt="{{ post.data.imageAlt }}"
