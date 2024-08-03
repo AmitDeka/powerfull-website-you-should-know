@@ -78,6 +78,16 @@ gulp.task("purgecss", () => {
     )
     .pipe(gulp.dest("dist/assets/css"));
 });
+gulp.task("purgeIconcss", () => {
+  return gulp
+    .src("dist/assets/fonts/remixIcon/*.css")
+    .pipe(
+      purgecss({
+        content: ["public/**/*.html"],
+      })
+    )
+    .pipe(gulp.dest("dist/assets/fonts/remixIcon"));
+});
 
 function js() {
   return gulp
