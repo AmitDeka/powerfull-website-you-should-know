@@ -11,7 +11,13 @@ collections:
     fields:
       - { label: "Site Title", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", default: "post" }
-      - { label: "Background Color", name: "backgroundColor", widget: "string" }
+      - {
+          label: "Background Color",
+          name: "backgroundColor",
+          widget: "color",
+          enableAlpha: true,
+          allowInput: true,
+        }
       - { label: "Icon", name: "image", widget: "image" }
       - { label: "Icon Alt", name: "imageAlt", widget: "string" }
       - { label: "Site Description", name: "description", widget: "markdown" }
