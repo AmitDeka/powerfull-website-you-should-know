@@ -1,6 +1,6 @@
 ---
 name: Sapiens Character Builder
-tags: "post"
+tags: post
 backgroundColor: 1f2f3f
 image: /assets/images/sapiens.ui8.net.svg
 imageAlt: Sapiens Character Builder Icon
