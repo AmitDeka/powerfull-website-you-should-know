@@ -1,0 +1,53 @@
+---
+title: Powerfull website you should know
+description: Discover a curated list of powerful websites you should know about. Stay updated with the best tools, resources, and services on the internet to enhance your productivity, knowledge, and entertainment.
+image: https://metatags.io/images/meta-tags.png
+layout: "base.njk"
+---
+
+<section class="mt-10 mb-4">
+  <div class="container">
+    <div class="heroBanner">
+      <div
+        class="heroBanner_image d-flex align-items-center justify-content-center">
+        <div class="heroBanner_text">
+          <h1>Discover the Web's Best Kept Secrets</h1>
+          <p>
+            Unlock a curated list of powerful websites that will transform your
+            online experience. From productivity tools to hidden gems, explore
+            the must-know resources of the internet.
+          </p>
+        </div>
+        <div class="heroBanner_overlay"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="mt-12 mb-4 tools">
+  <div class="container">
+    <h4 class="text-center fw-bold mb-6">Featured Tools</h4>
+    <div class="tools-container">
+      {% for item in site %}
+      <div class="card border-0 rounded-0 h-100">
+        <div
+          class="card-header border-0"
+          style="background-color: {{ item.backgroundColor }}">
+          <img
+            src="{{ item.image }}"
+            alt="{{ item.imageAlt }}"
+            class="img-fluid card-header_image" />
+        </div>
+        <div class="card-body">
+          <h6 class="card-title">{{ item.name }}</h6>
+          <p class="card-text">{{ item.description }}</p>
+        </div>
+        <div class="card-footer border-0 bg-light">
+          <a href="{{ item.link }}" class="card-link" target="_blank"
+            >Visit <i class="ri-arrow-right-line"></i
+          ></a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,400&display=swap");
+
+$variable-prefix: gu- !default;
+
+$primary: #1b2945 !default;
+$secondary: #ebcf83 !default;
+$accent: #3620ff !default;
+$dark-drpd-m: #343a40;
+
+$shadowColor: #11132314 !default;
+
+// $dot-color: #dde0e4 !default;
+
+// $primary-light: #ffecec;
+// $secondary-light: #f6f6f6;
+
+$success: #4ade80 !default;
+$info: #60a5fa !default;
+$warning: #facc15 !default;
+$danger: #ef4444 !default;
+
+$light: #f0f4fc !default;
+$dark: #02050b !default;
+$dark-light: #35373c; // 20% of $dark
+$paragraph: $dark-light !default;
+
+// Font weight
+$font-weight-lighter: 200 !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 900 !default;
+
+// Font family
+$font-family-sans-serif: "Poppins", sans-serif !default;
+
+//Font size
+$font-size-base: 0.9375rem !default;
+// $font-size-base: 0.9375rem !default;
+
+// negative margin
+$enable-negative-margins: true;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 730px,
+  lg: 970px,
+  xl: 1150px,
+  xxl: 1350px,
+) !default;
+
+// Body
+$body-bg: $light !default;
+$body-color: $paragraph !default;
+
+// font size
+$line-height-base: 1.6 !default;
+$font-size-base: 1rem !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+$h5-font-size: $h6-font-size * 1.25 !default;
+$h4-font-size: $h5-font-size * 1.25 !default;
+$h3-font-size: $h4-font-size * 1.25 !default;
+$h2-font-size: $h3-font-size * 1.25 !default;
+$h1-font-size: $h2-font-size * 1.25 !default;
+
+// Headings
+$headings-color: $dark !default;
+
+// Navbar
+$navbar-light-toggler-border-color: transparent !default;
+$navbar-toggler-focus-width: 0px !default;
+
+// Button border
+$btn-border-width: 2px;
+$btn-link-hover-color: $light;
+$btn-font-weight: 500;
+
+// Border radius
+// $border-radius-lg: 0.625rem !default;
+
+// Navs and tabs
+$nav-tabs-link-active-color: $light;
+$nav-tabs-link-active-bg: $primary;
+$nav-tabs-link-active-border-color: $primary;
+
+// Input
+$input-focus-border-color: $secondary;
+$input-focus-color: none;
+$input-focus-width: 0px;
+$input-focus-box-shadow: none;
+
+// Dropdowns
+$dropdown-link-hover-bg: rgba($secondary, 0.4);
+$dropdown-spacer: 0rem;

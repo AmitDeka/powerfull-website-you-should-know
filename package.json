@@ -1,0 +1,43 @@
+{
+  "name": "powerfull-website-you-should-know",
+  "version": "1.0.0",
+  "description": "Discover a curated list of powerful websites you should know about. Stay updated with the best tools, resources, and services on the internet to enhance your productivity, knowledge, and entertainment.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy",
+    "gulp": "gulp",
+    "dev": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitDeka/powerfull-website-you-should-know.git"
+  },
+  "author": "Amit Deka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AmitDeka/powerfull-website-you-should-know/issues"
+  },
+  "homepage": "https://github.com/AmitDeka/powerfull-website-you-should-know#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "bootstrap": "^5.2.3",
+    "browser-sync": "^2.29.3",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-html-partial": "^1.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "1.77.6"
+  },
+  "dependencies": {}
+}
