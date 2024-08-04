@@ -1,5 +1,7 @@
 ---
-tags: post
+tags:
+  - post
+  - AI
 name: Dora AI
 image: /assets/images/fvn5qcpakqoiaip6on07jp-4096x4096.webp
 backgroundColor: "#ffd40b"
