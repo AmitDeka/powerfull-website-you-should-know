@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - webdev
+  - Webdev
 name: TinyWow
 image: /assets/images/favicon-tinywow.svg
 backgroundColor: "#FFC513"
