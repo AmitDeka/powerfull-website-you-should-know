@@ -20,6 +20,7 @@ raw: |
 data:
   tags:
     - post
+    - ai
     - AI
   name: Gamma AI
   image: /assets/images/gamma-logo-black.5914e71f.svg
