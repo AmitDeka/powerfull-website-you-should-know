@@ -1,4 +1,5 @@
 ---
+category: Fun
 tags:
   - post
   - fun
