@@ -13,7 +13,7 @@ collections:
       - {
           label: "Category",
           name: "category",
-          widget: "relation",
+          widget: "select",
           collection: "categories",
           search_fields: ["title"],
           value_field: "title",
