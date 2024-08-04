@@ -12,15 +12,6 @@ collections:
     create: true
     fields:
       - {
-          label: "Category",
-          name: "category",
-          widget: "relation",
-          collection: "categories",
-          search_fields: ["title"],
-          value_field: "title",
-          display_fields: ["title"],
-        }
-      - {
           label: "Tags",
           name: "tags",
           widget: "relation",
