@@ -1,5 +1,7 @@
 ---
-tags: post
+tags:
+  - post
+  - fun
 name: Flash Games Museum
 image: /assets/images/flashmuseum_logo_1.png
 backgroundColor: "#ffa61a"
