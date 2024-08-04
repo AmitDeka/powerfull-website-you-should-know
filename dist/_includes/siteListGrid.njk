@@ -1,0 +1,17 @@
+<div class="card border-0 rounded-0 h-100">
+    <div class="card-header border-0" style="background-color: {{ post.data.backgroundColor }}">
+        <img
+            src="{{ post.data.image }}"
+            alt="{{ post.data.imageAlt }}"
+            class="img-fluid card-header_image" />
+    </div>
+    <div class="card-body">
+      <h6 class="card-title">{{ post.data.name }}</h6>
+      <p class="card-text">{{ post.data.description }}</p>
+    </div>
+    <div class="card-footer border-0 bg-light">
+      <a href="{{ post.data.link }}" class="card-link" target="_blank">
+        Visit <i class="ri-arrow-right-line"></i>
+      </a>
+    </div>
+</div>
