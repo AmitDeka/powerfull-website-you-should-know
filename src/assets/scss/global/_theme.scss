@@ -162,6 +162,7 @@ main {
         }
         &_image {
           height: 45px;
+          object-fit: contain;
           @include breakpoint(md) {
             height: 55px;
           }
