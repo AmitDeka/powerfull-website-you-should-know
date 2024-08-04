@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - webdev
+  - design
 name: Sapiens Character Builder
 slug: Sapiens-Character-Builder
 image: /assets/images/sapiens.ui8.net.svg
