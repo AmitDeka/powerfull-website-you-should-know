@@ -1,6 +1,7 @@
 ---
 tags:
   - post
+  - AI
 name: PopAi
 image: /assets/images/popai.svg
 backgroundColor: "#E9FF7D"
