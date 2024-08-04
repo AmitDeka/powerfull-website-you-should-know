@@ -20,7 +20,16 @@ collections:
           value_field: "title",
           display_fields: ["title"],
         }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+        {
+          label: "Tags",
+          name: "tags",
+          widget: "relation",
+          collection: "categories",
+          search_fields: ["title"],
+          value_field: "title",
+          display_fields: ["title"],
+          multiple: true
+        }
       - { label: "Site Title", name: "name", widget: "string" }
       - { label: "Icon", name: "image", widget: "image" }
       - {
@@ -41,5 +50,3 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
 
-extra_js:
-  - "assets/js/catTag.js"
