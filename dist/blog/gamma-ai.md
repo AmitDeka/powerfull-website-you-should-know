@@ -1,5 +1,7 @@
 ---
-tags: post
+tags:
+  - post
+  - AI
 name: Gamma AI
 image: /assets/images/gamma-logo-black.5914e71f.svg
 backgroundColor: "#6CFFA7"
