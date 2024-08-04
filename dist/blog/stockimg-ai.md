@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: Stockimg AI
 image: /assets/images/stockimg.webp
 backgroundColor: "#FFC6C6"

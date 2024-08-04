@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: REimagine Home AI
 image: /assets/images/screenshot-2024-08-04-190034.png
 backgroundColor: "#FF8532"

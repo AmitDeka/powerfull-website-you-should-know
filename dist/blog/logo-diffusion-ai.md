@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: Logo Diffusion AI
 image: /assets/images/logo-d.png
 backgroundColor: "#171127"

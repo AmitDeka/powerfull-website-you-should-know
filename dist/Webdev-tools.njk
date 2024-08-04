@@ -9,7 +9,7 @@ layout: "base.njk"
   <div class="container">
     <h4 class="text-center fw-bold mb-6">Web Development Tools</h4>
     <div class="tools-container">
-        {% for post in collections.Webdev | reverse %}
+        {% for post in collections.webdev | reverse %}
           {% include 'siteListGrid.njk' %}
         {% endfor %}
     </div>

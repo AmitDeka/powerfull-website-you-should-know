@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: Unriddle AI
 image: /assets/images/unriddle.svg
 backgroundColor: "#03899C"

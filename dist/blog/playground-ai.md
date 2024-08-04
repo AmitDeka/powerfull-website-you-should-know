@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: Playground AI
 image: /assets/images/playground.svg
 backgroundColor: "#FFFED0"

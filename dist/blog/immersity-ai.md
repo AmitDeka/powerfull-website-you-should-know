@@ -1,7 +1,7 @@
 ---
 tags:
   - post
-  - AI
+  - ai
 name: Immersity AI
 image: /assets/images/immersity.svg
 backgroundColor: "#0C0C18"

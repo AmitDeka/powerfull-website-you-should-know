@@ -61,7 +61,7 @@ layout: "base.njk"
         </div>
       </div>
       <div class="tools-container">
-        {% for post in collections.AI | reverse | limit(10) %}
+        {% for post in collections.ai | reverse | limit(10) %}
           {% include 'siteListGrid.njk' %}
         {% endfor %}
       </div>
