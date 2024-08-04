@@ -11,15 +11,13 @@ collections:
     create: true
     fields:
       - {
-          label: "Category",
-          name: "category",
-          widget: "select",
-          collection: "categories",
-          search_fields: ["title"],
-          value_field: "title",
-          display_fields: ["title"],
-        }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+          label: "Tags"
+          name: "tags"
+          widget: "select"
+          multiple: true
+          options: ["post", "Design", "UX", "Dev"]
+          default: ["post"]
+      }
       - { label: "Site Title", name: "name", widget: "string" }
       - { label: "Icon", name: "image", widget: "image" }
       - {
