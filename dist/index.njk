@@ -67,6 +67,25 @@ layout: "base.njk"
       </div>
     </div>
 
+    {# Designer Tools #}
+    <div class="mb-6 mt-6">
+      <div class="row mb-6">
+        <div class="col-8">
+          <h4 class="fw-bold fs-5 fs-md-4 mb-0">Designer Tools</h4>
+        </div>
+        <div class="col-4">
+          <a class="text-primary text-decoration-none float-end" href="/Designer-tools">
+            View all <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+      </div>
+      <div class="tools-container">
+        {% for post in collections.design | reverse | limit(10) %}
+          {% include 'siteListGrid.njk' %}
+        {% endfor %}
+      </div>
+    </div>
+
     {# Fun Tool #}  
     <div class="mt-6">
       <div class="row mb-6">

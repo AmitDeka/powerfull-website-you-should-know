@@ -1,0 +1,17 @@
+---
+title: Designer tools | Powerfull website you should know
+description: Discover a curated list of powerful websites you should know about. Stay updated with the best tools, resources, and services on the internet to enhance your productivity, knowledge, and entertainment.
+image: https://powerfull-website-you-should-know.netlify.app/assets/images/meta-image.jpg
+layout: "base.njk"
+---
+
+<section class="mt-8 mb-8 tools">
+  <div class="container">
+    <h4 class="text-center fw-bold mb-6">Designer Tools</h4>
+    <div class="tools-container">
+        {% for post in collections.design | reverse %}
+          {% include 'siteListGrid.njk' %}
+        {% endfor %}
+    </div>
+  </div>
+</section>
