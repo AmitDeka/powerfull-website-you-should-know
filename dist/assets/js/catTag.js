@@ -1,3 +1,5 @@
+console.log("Custom script loaded");
+
 CMS.registerEventListener({
   name: "preSave",
   handler: ({ entry }) => {

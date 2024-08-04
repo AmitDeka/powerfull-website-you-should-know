@@ -42,4 +42,4 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
 
 extra_js:
-  - "/assets/js/catTag.js"
+  - "assets/js/catTag.js"
