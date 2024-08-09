@@ -2,6 +2,7 @@
 tags:
   - post
   - webdev
+  - designer
 name: TinyWow
 image: /assets/images/favicon-tinywow.svg
 backgroundColor: "#FFC513"
