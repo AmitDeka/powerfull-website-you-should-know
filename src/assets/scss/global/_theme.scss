@@ -129,9 +129,10 @@ main {
 
 .tools {
   &-container {
+    column-gap: 14px;
     display: grid;
-    gap: 12px;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 18px;
     @include breakpoint(md) {
       gap: 14px;
       grid-template-columns: repeat(3, 1fr);
@@ -175,6 +176,7 @@ main {
         }
       }
       &-body {
+        flex: none !important;
         padding: 12px 0 4px !important;
         .card-title {
           color: $primary;
@@ -202,7 +204,7 @@ main {
       &-footer {
         padding: 0px !important;
         a.card-link {
-          font-weight: 500;
+          font-weight: 500 !important;
           text-decoration: none;
           transition: color 0.25s ease-in;
           &:hover {
