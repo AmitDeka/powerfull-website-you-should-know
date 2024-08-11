@@ -45,7 +45,7 @@ function css() {
     .pipe(
       autoprefixer({
         supports: true,
-        grid: "no-autoplace",
+        grid: "autoplace",
         remove: false,
       })
     )

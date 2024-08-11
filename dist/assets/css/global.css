@@ -129,21 +129,21 @@ main {
           column-gap: 14px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: 1fr 14px 1fr;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 18px;
 }
 @media (min-width: 768px) {
   .tools-container {
     gap: 14px;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 992px) {
   .tools-container {
     gap: 16px;
-    -ms-grid-columns: (1fr)[4];
+    -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
     grid-template-columns: repeat(4, 1fr);
   }
 }
