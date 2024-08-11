@@ -12,18 +12,6 @@ const htmlPartial = require("gulp-html-partial");
 const clean = require("gulp-clean");
 const isProd = process.env.NODE_ENV === "prod";
 
-const AUTOPREFIXER_BROWSERS = [
-  "ie >= 10",
-  "ie_mob >= 10",
-  "ff >= 30",
-  "chrome >= 34",
-  "safari >= 7",
-  "opera >= 23",
-  "ios >= 7",
-  "android >= 4.4",
-  "bb >= 10",
-];
-
 // const htmlFile = ["src/*.html"];
 
 // function html() {
@@ -54,7 +42,13 @@ function css() {
         includePaths: ["node_modules"],
       }).on("error", sass.logError)
     )
-    .pipe(autoprefixer())
+    .pipe(
+      autoprefixer({
+        supports: true,
+        grid: "no-autoplace",
+        remove: false,
+      })
+    )
     .pipe(gulpIf(!isProd, sourcemaps.write()))
     .pipe(gulpIf(isProd, cssmin()))
     .pipe(gulp.dest("dist/assets/css/"))
