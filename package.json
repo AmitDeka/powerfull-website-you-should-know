@@ -20,6 +20,10 @@
     "url": "https://github.com/AmitDeka/powerfull-website-you-should-know/issues"
   },
   "homepage": "https://github.com/AmitDeka/powerfull-website-you-should-know#readme",
+  "browserslist": [
+    "> .1%",
+    "dead"
+  ],
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "bootstrap": "^5.2.3",

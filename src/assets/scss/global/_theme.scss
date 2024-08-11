@@ -37,6 +37,8 @@ main {
 }
 
 #navbar {
+  backdrop-filter: blur(12px);
+  background-color: transparent !important;
   .navbar-brand {
     img {
       height: 45px;
@@ -54,11 +56,17 @@ main {
   }
 }
 
+@supports not (backdrop-filter: blur()) {
+  #navabar {
+    background-color: $light;
+  }
+}
+
 .brand-logo {
   &_text {
     font-weight: 300;
     span {
-      color: $accent;
+      color: $primary;
       font-weight: 600;
     }
   }
@@ -71,13 +79,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    height: 400px;
+    height: 480px;
     overflow: hidden;
     padding: 0 25px;
     position: relative;
     width: 100%;
     @include breakpoint(md) {
-      height: 380px;
+      height: 430px;
       padding: 0 40px;
     }
     @include breakpoint(lg) {
@@ -85,10 +93,10 @@ main {
       padding: 0 70px;
     }
     @include breakpoint(xl) {
-      height: 540px;
+      height: 530px;
     }
     @include breakpoint(xxl) {
-      height: 600px;
+      height: 580px;
     }
   }
   &_text {
@@ -177,7 +185,7 @@ main {
       }
       &-body {
         flex: none !important;
-        padding: 12px 0 4px !important;
+        padding: 8px 4px 6px !important;
         .card-title {
           color: $primary;
           font-size: 1rem;
